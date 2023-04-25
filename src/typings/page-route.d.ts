@@ -57,7 +57,18 @@ declare namespace PageRoute {
     | 'plugin_print'
     | 'plugin_swiper'
     | 'plugin_video'
-    | 'user';
+    | 'user'
+    | 'user_manage'
+    | 'user_auth'
+    | 'message'
+    | 'comment'
+    | 'admin'
+    | 'mail_manage'
+    | 'wish'
+    | 'wish_manage'
+    | 'wish_blessing'
+    | 'wish_info'
+    | 'letter_manage';
 
   /**
    * last degree route key, which has the page file
@@ -96,6 +107,12 @@ declare namespace PageRoute {
     | 'plugin_print'
     | 'plugin_swiper'
     | 'plugin_video'
-    | 'user'
+    | 'user_manage'
+    | 'user_auth'
+    | 'mail_manage'
+    | 'wish_manage'
+    | 'wish_blessing'
+    | 'wish_info'
+    | 'letter_manage'
   >;
 }

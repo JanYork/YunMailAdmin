@@ -1,6 +1,6 @@
-const massage: AuthRoute.Route = {
-  name: 'massage',
-  path: '/massage',
+const message: AuthRoute.Route = {
+  name: 'message',
+  path: '/message',
   component: 'self',
   meta: {
     title: '短信管理',
@@ -12,4 +12,4 @@ const massage: AuthRoute.Route = {
   }
 };
 
-export default massage;
+export default message;
