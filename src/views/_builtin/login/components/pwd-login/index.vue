@@ -51,7 +51,7 @@ const model = reactive({
 const imgCode = ref('');
 
 const rules: FormRules = {
-  // password: formRules.pwd,
+  password: formRules.pwd,
   imgCode: getImgCodeRule(imgCode)
 };
 

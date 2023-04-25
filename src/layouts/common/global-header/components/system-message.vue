@@ -132,7 +132,7 @@ function handleAllRead() {
 }
 
 function handleClear() {
-  window.$message.error('系统存在自动清空');
+  window.$message?.error('系统存在自动清空');
 }
 
 function handleLoadMore() {

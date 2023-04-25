@@ -9,16 +9,16 @@ export const loginModuleLabels: Record<UnionKey.LoginModule, string> = {
 export const userRoleLabels: Record<Auth.RoleType, string> = {
   super: '超级管理员',
   admin: '管理员',
-  user: '普通用户'
+  operation: '运营人员'
 };
 
 export const userRoleOptions: Common.OptionWithKey<Auth.RoleType>[] = [
   { value: 'super', label: userRoleLabels.super },
   { value: 'admin', label: userRoleLabels.admin },
-  { value: 'user', label: userRoleLabels.user }
+  { value: 'operation', label: userRoleLabels.operation }
 ];
 
-/** 用户性别 */
+/** 性别 */
 export const genderLabels: Record<UserManagement.GenderKey, string> = {
   0: '女',
   1: '男'

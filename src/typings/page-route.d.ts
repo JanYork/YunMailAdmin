@@ -93,8 +93,6 @@ declare namespace PageRoute {
     | 'function_tab-detail'
     | 'function_tab-multi-detail'
     | 'function_tab'
-    | 'letter'
-    | 'mail'
     | 'multi-menu_first_second-new_third'
     | 'multi-menu_first_second'
     | 'plugin_charts_antv'

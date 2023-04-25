@@ -10,7 +10,7 @@ export function getUserInfo() {
   const emptyInfo: Auth.UserInfo = {
     id: '',
     name: '',
-    userRole: 'user',
+    userRole: 'operation',
     email: '',
     createTime: ''
   };

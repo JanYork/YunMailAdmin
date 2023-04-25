@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div class="h-full">
     <n-card title="权限切换" class="h-full shadow-sm rounded-16px">
       <div class="pb-12px">
@@ -52,4 +52,4 @@ watch(
 );
 </script>
 
-<style scoped></style>
+<style scoped></style> -->

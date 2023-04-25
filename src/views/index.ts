@@ -21,8 +21,6 @@ export const views: Record<
   'function_tab-detail': () => import('./function/tab-detail/index.vue'),
   'function_tab-multi-detail': () => import('./function/tab-multi-detail/index.vue'),
   function_tab: () => import('./function/tab/index.vue'),
-  letter: () => import('./letter/index.vue'),
-  mail: () => import('./mail/index.vue'),
   'multi-menu_first_second-new_third': () => import('./multi-menu/first/second-new/third/index.vue'),
   'multi-menu_first_second': () => import('./multi-menu/first/second/index.vue'),
   plugin_charts_antv: () => import('./plugin/charts/antv/index.vue'),
@@ -35,5 +33,11 @@ export const views: Record<
   plugin_print: () => import('./plugin/print/index.vue'),
   plugin_swiper: () => import('./plugin/swiper/index.vue'),
   plugin_video: () => import('./plugin/video/index.vue'),
-  user: () => import('./user/index.vue')
+  user_manage: () => import('./mail/index.vue'),
+  user_auth: () => import('./mail/index.vue'),
+  mail_manage: () => import('./mail/index.vue'),
+  wish_manage: () => import('./mail/index.vue'),
+  wish_blessing: () => import('./mail/index.vue'),
+  wish_info: () => import('./mail/index.vue'),
+  letter_manage: () => import('./mail/index.vue')
 };
