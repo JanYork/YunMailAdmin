@@ -71,12 +71,7 @@
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
   },
-  "i18n-ally.localesPaths": [
-    "src/locales",
-    "src/locales/lang"
-  ],
-  "cSpell.words": [
-    "composables",
-    "loding"
-  ]
+  "i18n-ally.localesPaths": ["src/locales", "src/locales/lang"],
+  "cSpell.words": ["composables", "loding"],
+  "vue.features.codeActions.enable": false
 }

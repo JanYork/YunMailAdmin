@@ -104,7 +104,6 @@
     "eslint": "^8.38.0",
     "eslint-config-soybeanjs": "^0.3.2",
     "lint-staged": "12.5.0",
-    "mockjs": "^1.1.0",
     "rollup-plugin-visualizer": "^5.9.0",
     "sass": "^1.62.0",
     "simple-git-hooks": "^2.8.1",
@@ -121,11 +120,6 @@
     "vite-plugin-pwa": "^0.14.7",
     "vite-plugin-svg-icons": "^2.0.1",
     "vue-tsc": "^1.2.0"
-  },
-  "pnpm": {
-    "patchedDependencies": {
-      "mockjs@1.1.0": "patches/mockjs@1.1.0.patch"
-    }
   },
   "simple-git-hooks": {
     "commit-msg": "pnpm soy git-commit-verify",
