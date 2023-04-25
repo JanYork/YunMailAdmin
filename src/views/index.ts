@@ -39,5 +39,14 @@ export const views: Record<
   wish_manage: () => import('./mail/index.vue'),
   wish_blessing: () => import('./mail/index.vue'),
   wish_info: () => import('./mail/index.vue'),
-  letter_manage: () => import('./mail/index.vue')
+  letter_manage: () => import('./mail/index.vue'),
+  sponsor: () => import('./mail/index.vue'),
+  sponsor_info: () => import('./mail/index.vue'),
+  sponsor_manage: () => import('./mail/index.vue'),
+  orders: () => import('./mail/index.vue'),
+  orders_info: () => import('./mail/index.vue'),
+  orders_manage: () => import('./mail/index.vue'),
+  logistics: () => import('./mail/index.vue'),
+  logistics_info: () => import('./mail/index.vue'),
+  logistics_shipping: () => import('./mail/index.vue')
 };
