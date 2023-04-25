@@ -27,7 +27,7 @@ const user: AuthRoute.Route = {
   meta: {
     title: '用户',
     icon: 'mdi:shield-account-outline',
-    order: 1
+    order: 8
   }
 };
 

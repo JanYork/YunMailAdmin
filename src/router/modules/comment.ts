@@ -5,7 +5,7 @@ const comment: AuthRoute.Route = {
   meta: {
     title: '评论',
     icon: 'mdi:comment-text-outline',
-    order: 1
+    order: 7
   }
 };
 

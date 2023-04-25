@@ -3,9 +3,9 @@ const admin: AuthRoute.Route = {
   path: '/admin',
   component: 'basic',
   meta: {
-    title: '后台账户',
+    title: '后台',
     icon: 'mdi:card-minus-outline',
-    order: 1
+    order: 9
   }
 };
 

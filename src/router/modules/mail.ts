@@ -17,7 +17,7 @@ const mail: AuthRoute.Route = {
   meta: {
     title: '邮件',
     icon: 'mdi:mail-ru',
-    order: 1
+    order: 3
   }
 };
 

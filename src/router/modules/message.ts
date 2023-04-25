@@ -3,9 +3,9 @@ const message: AuthRoute.Route = {
   path: '/message',
   component: 'basic',
   meta: {
-    title: '短信管理',
+    title: '短信',
     icon: 'mdi:message-processing-outline',
-    order: 10
+    order: 5
   }
 };
 

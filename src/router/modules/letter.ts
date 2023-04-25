@@ -18,7 +18,7 @@ const letter: AuthRoute.Route = {
   meta: {
     title: '信件',
     icon: 'mdi:mailbox-up-outline',
-    order: 1
+    order: 2
   }
 };
 

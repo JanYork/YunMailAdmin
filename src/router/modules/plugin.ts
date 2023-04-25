@@ -129,7 +129,7 @@ const plugin: AuthRoute.Route = {
   meta: {
     title: '插件示例',
     icon: 'clarity:plugin-line',
-    order: 4
+    order: 20
   }
 };
 

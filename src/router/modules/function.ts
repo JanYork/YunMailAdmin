@@ -42,7 +42,7 @@ const functionRoute: AuthRoute.Route = {
   meta: {
     title: '功能',
     icon: 'icon-park-outline:all-application',
-    order: 6
+    order: 20
   }
 };
 

@@ -37,7 +37,7 @@ const wish: AuthRoute.Route = {
   meta: {
     title: '许愿',
     icon: 'mdi:cake-variant-outline',
-    order: 1
+    order: 4
   }
 };
 

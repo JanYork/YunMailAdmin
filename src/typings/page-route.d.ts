@@ -68,7 +68,16 @@ declare namespace PageRoute {
     | 'wish_manage'
     | 'wish_blessing'
     | 'wish_info'
-    | 'letter_manage';
+    | 'letter_manage'
+    | 'sponsor'
+    | 'sponsor_info'
+    | 'sponsor_manage'
+    | 'orders'
+    | 'orders_info'
+    | 'orders_manage'
+    | 'logistics'
+    | 'logistics_info'
+    | 'logistics_shipping';
 
   /**
    * last degree route key, which has the page file
@@ -112,5 +121,14 @@ declare namespace PageRoute {
     | 'wish_blessing'
     | 'wish_info'
     | 'letter_manage'
+    | 'sponsor'
+    | 'sponsor_info'
+    | 'sponsor_manage'
+    | 'orders'
+    | 'orders_info'
+    | 'orders_manage'
+    | 'logistics'
+    | 'logistics_info'
+    | 'logistics_shipping'
   >;
 }
