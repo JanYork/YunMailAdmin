@@ -1,14 +1,11 @@
 const comment: AuthRoute.Route = {
   name: 'comment',
   path: '/comment',
-  component: 'self',
+  component: 'basic',
   meta: {
-    title: '评论信息',
-    requiresAuth: true,
-    keepAlive: true,
-    singleLayout: 'basic',
+    title: '评论',
     icon: 'mdi:comment-text-outline',
-    order: 10
+    order: 1
   }
 };
 

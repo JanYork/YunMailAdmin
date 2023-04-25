@@ -9,9 +9,6 @@ const mail: AuthRoute.Route = {
       component: 'self',
       meta: {
         title: '邮件管理',
-        requiresAuth: true,
-        keepAlive: true,
-        singleLayout: 'basic',
         icon: 'mdi:music-accidental-sharp',
         order: 10
       }

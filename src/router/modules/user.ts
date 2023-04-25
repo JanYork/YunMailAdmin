@@ -9,9 +9,6 @@ const user: AuthRoute.Route = {
       component: 'self',
       meta: {
         title: '用户管理',
-        requiresAuth: true,
-        keepAlive: true,
-        singleLayout: 'basic',
         icon: 'mdi:account-edit',
         order: 10
       }
@@ -22,9 +19,6 @@ const user: AuthRoute.Route = {
       component: 'self',
       meta: {
         title: '实名管理',
-        requiresAuth: true,
-        keepAlive: true,
-        singleLayout: 'basic',
         icon: 'mdi:card-account-details-outline',
         order: 10
       }

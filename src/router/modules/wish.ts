@@ -9,9 +9,6 @@ const wish: AuthRoute.Route = {
       component: 'self',
       meta: {
         title: '许愿管理',
-        requiresAuth: true,
-        keepAlive: true,
-        singleLayout: 'basic',
         icon: 'mdi:calendar-heart-outline',
         order: 10
       }
@@ -22,9 +19,6 @@ const wish: AuthRoute.Route = {
       component: 'self',
       meta: {
         title: '祝福语录',
-        requiresAuth: true,
-        keepAlive: true,
-        singleLayout: 'basic',
         icon: 'mdi:card-bulleted-settings-outline',
         order: 10
       }
@@ -35,9 +29,6 @@ const wish: AuthRoute.Route = {
       component: 'self',
       meta: {
         title: '祝福信息',
-        requiresAuth: true,
-        keepAlive: true,
-        singleLayout: 'basic',
         icon: 'mdi:card-bulleted-settings-outline',
         order: 10
       }

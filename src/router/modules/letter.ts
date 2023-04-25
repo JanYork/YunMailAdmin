@@ -9,12 +9,9 @@ const letter: AuthRoute.Route = {
       component: 'self',
       meta: {
         title: '信件管理',
-        requiresAuth: true,
-        keepAlive: true,
-        singleLayout: 'basic',
         // permissions: ['super', 'admin', 'user'],
         icon: 'mdi:email-outline',
-        order: 10
+        order: 1
       }
     }
   ],
