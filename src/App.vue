@@ -10,6 +10,19 @@
       <router-view />
     </naive-provider>
   </n-config-provider>
+  <n-watermark
+    v-if="true"
+    content="Copyright © 云寄"
+    cross
+    fullscreen
+    :font-size="15"
+    :line-height="15"
+    :width="384"
+    :height="384"
+    :x-offset="12"
+    :y-offset="60"
+    :rotate="-15"
+  />
 </template>
 
 <script setup lang="ts">

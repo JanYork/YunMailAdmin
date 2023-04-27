@@ -9,7 +9,7 @@ const letter: AuthRoute.Route = {
       component: 'self',
       meta: {
         title: '信件管理',
-        // permissions: ['super', 'admin', 'user'],
+        permissions: ['super', 'admin'],
         icon: 'mdi:email-outline',
         order: 1
       }
